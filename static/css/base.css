@@ -19,7 +19,16 @@ body h2 {
     margin-left: 70px;
     color: blue;
 }
-.bg-img {
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat; }
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
+body p {
+    color: blue;
+    margin-: 70px;
+}
+.sing_in{
+    margin-left: 100px;
+    color: #a30029;
+}
