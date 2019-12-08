@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="post-entry">
+    <h2>{{ post.title }}</h2>
+    <img class="form-image" src="{{ post.cover.url}}">
+    <p>{{ post.body }}</p>
+    <button class="btn"><a href="#">Reserved</a> </button>
+</div>
+{% endblock content %}
